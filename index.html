@@ -8,110 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <style>
-        body {
-            background-color: rgb(43, 44, 40);
-        }
-        h1 {
-            font-family: 'Josefin Sans', sans-serif;
-            background-color: rgb(63, 124, 172);
-            padding-top: 30px;
-            padding-bottom: 30px;
-            padding-left: 40px;
-            padding-right: 40px;
-            line-height: 20px;
-            border-radius: 4px;
-            text-align: center;
-                }
-        h2 {
-            color: rgb(144, 224, 239);
-            font-family: monospace;
-            text-decoration: underline;
-        }
-        h3 {
-            color: rgb(144, 224, 239);
-            font-family: monospace;
-            font-size: 15px;
-            line-height: 25px;
-        }
-        ul {
-            color: rgb(144, 224, 239);
-            font-family: monospace;
-        }
-        a {
-            text-decoration: none;
-            color: rgb(144, 224, 239);
-        }
-        hr {
-            border-color: rgb(43, 44, 40);
-        }
-
-        #alignfoto {
-            float: left;
-            }
-        #foto {
-            border-radius: 100%;
-            }
-        #contatos {
-            text-align: center;
-        }
-        #trybe {
-            color: #2fc18c;
-        }
-        #buttoncontato {
-            background-color: rgb(63, 124, 172);
-            padding: 5px 90px;
-            border-radius: 4px;
-            text-decoration: none;
-            color: rgb(43, 44, 40);
-            font-weight: 700;
-        }
-        #buttonconts {
-            background-color: rgb(144, 224, 239);
-            padding: 5px 30px;
-            border-radius: 4px;
-            text-decoration: none;
-            color: rgb(43, 44, 40);
-            font-weight: 700;
-        }
-       
+        
     </style>
 </head>
 <body>
-    <!-- Seção 1 -->
-    <h1>Apprentice DEV - Lucas Lopes</h1>
-    <hr>
-    <!-- Seção 2 -->
-    
-    <div id="alignfoto">
-        <img id="foto" src="foto-perfil (cópia).jpeg"  alt="Foto de Lucas" width="200px">
+    <!-- BARRA SUPERIOR -->
+    <div class="barraa">
+        <div class="fotodiv">
+            <img class="foto" src="foto-perfil (cópia).jpeg"  alt="Foto de Lucas" width="200px">
+        </div>
+        <div class="barrasuperior">
+            <h1>Lucas Lopes</h1>
+            <h2 id="qualif">Engenheiro Desenvolverdor Web</h2>
+        </div>
+        <div id="contatos">
+            <a class="buttonconts" href="https://www.facebook.com/lucasdesousapl/" target="_blank">Facebook</a>
+            <a class="buttonconts" href="https://www.instagram.com/lucasdesousapl/" target="_blank">Instagram</a>
+            <a class="buttonconts" href="https://www.linkedin.com/in/lucas-lopes-038719a1/" target="_blank">linkedin</a>
+            <a class="buttonconts" href="https://github.com/lsplopes" target="_blank">GitHub</a>
+        </div>
     </div>
-    <br><br>
-    <div id="contatos">
-    <a id="buttoncontato">CONTATOS</a><br><br><br>
-    <a id="buttonconts" href="https://www.facebook.com/lucasdesousapl/" target="_blank">Facebook</a>
-    <a id="buttonconts" href="https://www.instagram.com/lucasdesousapl/" target="_blank">Instagram</a><br><br>
-    <a id="buttonconts" href="https://www.linkedin.com/in/lucas-lopes-038719a1/" target="_blank">linkedin</a>
-    <a id="buttonconts" href="https://github.com/lsplopes" target="_blank">GitHub</a><br><br>
-    </div>
-    <br><br>
-    <hr>
+    <br>
     <!-- Seção 3 -->
-    <h2>Indice</h2>
-    <ul>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#descricao">Quem sou eu</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-    </ul>
-    <hr>
+    <div class="caixalateral">
+        <div id="contcl">
+            <a id="but1" href="https://www.facebook.com/lucasdesousapl/" target="_blank">Sobre mim</a><br>
+            <a id="but2" href="https://www.instagram.com/lucasdesousapl/" target="_blank">Habilidades</a><br>
+            <a id="but3" href="https://www.linkedin.com/in/lucas-lopes-038719a1/" target="_blank">Formação</a><br>
+            <a id="but4" href="https://github.com/lsplopes" target="_blank">Portfólio</a>
+        </div>
+    </div>
 
     <!-- Seção 4 -->
-    <h3>Engenheiro Civil e de Segurança do trabalho de formação, atualmente estou em transição de carreira através do curso da <strong id="trybe">Trybe</strong> Desenvolvedor
-        de Sistemas Web. <br><br>
-        Brasileiro, nascido e residente na cidade de Franca localizada no Interior do estado de São Paulo<br><br>
+    <div id="sobremim">
+        <h3>Engenheiro Civil e de Segurança do trabalho de formação, atualmente estou em transição de carreira através do curso da <strong id="trybe">Trybe</strong> Desenvolvedor
+        de Sistemas Web.
+        Brasileiro, nascido e residente na cidade de Franca localizada no Interior do estado de São Paulo
         Tenho como principais hobbies: academia, leitura, filmes e séries. <br><br>
     </h3>
-    <hr>
+</div><hr>
 
     <!-- Seção 5 -->
     <h2>Habilidades</h2>

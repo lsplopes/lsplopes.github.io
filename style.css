@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(124, 126, 120);
+}
+.barraa {
+    
+}
+.barrasuperior {
+    background-color: rgb(63, 124, 172);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+.foto {
+    float: left;
+    border-radius: 100%;
+    border: 5px solid rgb(78, 78, 78);
+    vertical-align: middle;
+    position: relative;
+    }
+#contatos {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b9b9b9;
+    border-radius: 20px;
+}
+.buttonconts {
+    background-color: rgb(144, 224, 239);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+
+}
+.buttonconts:hover {
+    background-color: rgb(111, 213, 231);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    color:rgb(124, 126, 120)
+}
+.caixalateral {
+    border: 5px solid rgb(43, 44, 40);
+    background-color: #b9b9b9;
+    width: 150px;
+    height: 180px;
+    float: left;
+    border-radius: 20px;
+}
+#contcl {
+    text-align: center;
+}
+#but1 {
+    background-color: rgb(144, 224, 239);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+}
+#but2 {
+    background-color: rgb(144, 224, 239);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    position: relative;
+    top: 40px;
+}
+#but3 {
+    background-color: rgb(144, 224, 239);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    position: relative;
+    top: 60px;
+}
+#but4 {
+    background-color: rgb(144, 224, 239);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    position: relative;
+    top: 80px;
+}
+#but1:hover {
+    background-color: rgb(111, 213, 231);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    color:rgb(124, 126, 120);
+    position: relative;
+    top: 20px;
+}
+#but2:hover {
+    background-color: rgb(111, 213, 231);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    color:rgb(124, 126, 120);
+    position: relative;
+    top: 40px;
+}
+#but3:hover {
+    background-color: rgb(111, 213, 231);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    color:rgb(124, 126, 120);
+    position: relative;
+    top: 60px;
+}
+#but4:hover {
+    background-color: rgb(111, 213, 231);
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(43, 44, 40);
+    font-weight: 700;
+    color:rgb(124, 126, 120);
+    position: relative;
+    top: 80px;
+}
+#sobremim {
+    border: 2px solid green;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+        }
+#qualif {
+    text-align: center;
+}
+#trybe {
+    color: #2fc18c;
+}
+
