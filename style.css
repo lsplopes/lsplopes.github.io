@@ -48,13 +48,14 @@ body {
 .caixalateral {
     border: 5px solid rgb(43, 44, 40);
     background-color: #b9b9b9;
-    width: 150px;
+    width: 15%;
     height: 180px;
     float: left;
     border-radius: 20px;
 }
-#sobremim {
+.sobremim {
     border: 2px solid green;
+    width: 83%;
     float: right;
 }
 #contcl {
