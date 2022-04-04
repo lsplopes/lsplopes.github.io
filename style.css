@@ -18,6 +18,7 @@ body {
     border: 5px solid rgb(78, 78, 78);
     vertical-align: middle;
     position: relative;
+    width: 15%;
     }
 #contatos {
     padding-top: 38px;
