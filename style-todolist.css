@@ -1,0 +1,45 @@
+header {
+  border: 4px black solid;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  font-size: 30px;
+  font-family: monospace;
+}
+body {
+  background-color: gray;
+}
+#adicionaTarefasContainer {
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#listaTarefasContainer {
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+}
+#opcoesManipulacao {
+  border: 1px black solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
