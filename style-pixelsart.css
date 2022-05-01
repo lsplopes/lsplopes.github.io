@@ -39,8 +39,8 @@ header {
   align-items: center;
   border: black 2px solid;
   border-radius: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
+  /*margin-left: 200px;
+  margin-right: 200px;*/
 }
 #title {
   text-align: center;
