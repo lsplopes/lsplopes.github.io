@@ -56,6 +56,8 @@ h1 {
 	font-weight: 700;
 	position: relative;
 	font-family: monospace;
+	display: inline-flex;
+	margin-top: 5px;
 }
 .contbut:hover {
 	background-color: rgb(43, 44, 40);
@@ -66,4 +68,6 @@ h1 {
 	font-weight: 700;
 	position: relative;
 	font-family: monospace;
+	display: inline-flex;
+	margin-top: 5px;
 }
