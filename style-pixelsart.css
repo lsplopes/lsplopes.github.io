@@ -4,9 +4,9 @@ body {
 header {
   border: black 2px solid;
   border-radius: 10px;
-  margin: 20px;
+  /*margin: 20px;
   margin-left: 200px;
-  margin-right: 200px;
+  margin-right: 200px;*/*
 }
 .color {
   display: inline-block;

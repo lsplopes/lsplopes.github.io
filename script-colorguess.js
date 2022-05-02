@@ -52,9 +52,11 @@ function gamePlay() {
     let rgbColorText = 'rgb' + RGBcolor.innerText;   
     if (eventoBack === rgbColorText) {
       let textoInicial = document.getElementById('answer');
-      textoInicial.innerText = 'Acertou!'
+      textoInicial.innerText = 'Acertou!! Cores foram atualizadas, tente de novo!'
       contador += 3;
       placar();
+      deleteBalls();
+      createCircles();
     } else if (eventoBack !== rgbColorText) {
       let textoInicial = document.getElementById('answer');
       textoInicial.innerText = 'Errou! Tente novamente!'      

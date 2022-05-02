@@ -2,27 +2,27 @@ body {
   background-color: black;
 }
 .navbuttons {
-	padding: 5px 30px;
+	padding: 5px 15px;
 	border-radius: 4px;
 	text-decoration: none;
 	color: rgb(78, 78, 78);
 	font-weight: 700;
-	position: relative;
 	font-family: monospace;
 }
 .navbuttons:hover {
-	padding: 5px 30px;
+	padding: 5px 15px;
 	border-radius: 4px;
 	text-decoration: none;
 	color: rgb(43, 44, 40);
 	font-weight: 700;
 	color:rgb(124, 126, 120);
-	position: relative;
 	font-family: monospace;
 }
 #navheader {
 	border-bottom: 2px rgb(78, 78, 78) solid;
 	padding: 1%;
+	display: flex;
+	justify-content: space-evenly;
 }
 #fotoDePerfil {
 	text-align: center;
@@ -45,7 +45,9 @@ h1 {
 	font-family: monospace;
 }
 #contatos {
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 .contbut {
 	border: 1px rgb(43, 44, 40) solid;
