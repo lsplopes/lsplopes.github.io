@@ -23,13 +23,11 @@ selectImage.addEventListener('change', function(meme) {
 let selectFire = document.getElementById('buttons');
 
 selectFire.addEventListener('click', function(evento) {
-  let borda = document.getElementById('meme-image-container');
-  if (evento.target.id === 'fire') {
-    borda.style.border = '3px red dashed';
-  } else if (evento.target.id === 'water') {
-    borda.style.border = '5px blue double';
-  } else if (evento.target.id === 'earth') {
-    borda.style.border = '6px green groove';
+  let borda = document.getElementById('meme-text');
+  if (evento.target.id === 'upCenter') {
+    borda.style.alignItems = 'flex-start';
+  } else if (evento.target.id === 'bottomCenter') {
+    borda.style.alignItems = 'flex-end';
   }
 })
 
