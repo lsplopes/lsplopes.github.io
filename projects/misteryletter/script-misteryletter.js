@@ -28,8 +28,6 @@ function contaPalavras() {
   }
 }
 
-
-
 //cria função que gera os estilos doidos
 function criaCartaNova() {  
   let textInputer = document.getElementById('carta-texto');

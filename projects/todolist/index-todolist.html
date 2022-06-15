@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style-todolist.css">
+  <link rel="stylesheet" href="/projects/todolist/style-todolist.css">
   <title>To Do List</title>
 </head>
 <body>
-  <header>Minha Lista de Tarefas</header>
+  <header>My to-do list</header>
   <main>
     <section id="adicionaTarefasContainer">
       <p id="funcionamento">
-        Clique duas vezes em um item para marcá-lo como completo
+        Double-click an item to mark it as complete
       </p>
       <input type="text" name="adicionaTarefa" id="texto-tarefa">
-      <button id="criar-tarefa">Adicionar Tarefa</button>
+      <button id="criar-tarefa">Add task</button>
     </section>
     <section id="listaTarefasContainer">
       <ol id="lista-tarefas"></ol>
@@ -23,12 +23,12 @@
     <nav id="opcoesManipulacao">
       <button id="mover-cima">⇧</button>
       <button id="mover-baixo">⇩</button>
-      <button id="remover-selecionado">Remover selecionado</button>
-      <button id="remover-finalizados">Apagar tarefas finalizadas</button>
-      <button id="apaga-tudo">Apagar todas tarefas</button>
-      <button id="salvar-tarefas">Salvar tarefas</button>
+      <button id="remover-selecionado">Remove selected</button>
+      <button id="remover-finalizados">Remove completed tasks</button>
+      <button id="apaga-tudo">Remove all tasks</button>
+      <button id="salvar-tarefas">Save</button>
     </nav>
   </main>
-  <script src="/script-todolist.js"></script>
+  <script src="/projects/todolist/script-todolist.js"></script>
 </body>
 </html>
